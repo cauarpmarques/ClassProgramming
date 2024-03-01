@@ -20,7 +20,7 @@ class ContaBancaria:
     def verificar_saldo(self):
         print(f"O saldo atual do titular {self.__titular}:R${self.__saldo:.2f}")
 
-#Criando a conta bancaria a partir do dados informados pelo usuario 
+#Criando a conta bancaria a partir dos dados informados pelo usuário 
         
 def main():
     nome_titular = input("Digite o nome do titular da conta: ")
